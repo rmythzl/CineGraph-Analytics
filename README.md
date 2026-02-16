@@ -1,6 +1,6 @@
 # 🎬 CineGraph Analytics
 
-Sistema avançado de **análise de dados e recomendação baseado em grafos**, desenvolvido com **Neo4j e Cypher**, simulando a arquitetura de plataformas modernas de streaming.
+Sistema avançado de **análise de dados e recomendação baseado em grafos**, utilizando **Neo4j e Cypher**, simulando a arquitetura de plataformas modernas de streaming.
 
 O projeto explora **modelagem de dados orientada a grafos**, análise de relacionamentos complexos e geração de **recomendações inteligentes baseadas em comportamento**.
 
@@ -17,59 +17,53 @@ O projeto explora **modelagem de dados orientada a grafos**, análise de relacio
 
 ## 🎯 Objetivo do Projeto
 
-Projetar e implementar um sistema capaz de:
+Construir um modelo capaz de:
 
 - Relacionar **usuários, filmes, séries e gêneros**
-- Analisar **padrões de consumo**
-- Identificar **afinidade entre usuários**
+- Identificar **padrões de consumo**
 - Gerar **recomendações automáticas**
-- Simular cenários reais usados por plataformas como Netflix, Prime Video e Disney+
+- Mapear **afinidade entre usuários**
+- Simular sistemas reais de recomendação
 
 ---
 
 ## 🧠 Modelagem do Grafo
 
 ### 🟢 Nós (Nodes)
-
-- `Usuario`
-- `Filme`
-- `Serie`
-- `Genero`
+- Usuario  
+- Filme  
+- Serie  
+- Genero  
 
 ### 🔗 Relacionamentos (Relationships)
-
-- `ASSISTIU` → Usuário assistiu um conteúdo  
-- `AVALIOU` → Usuário avaliou um conteúdo  
-- `PERTENCE_A` → Conteúdo pertence a um gênero  
+- ASSISTIU  
+- AVALIOU  
+- PERTENCE_A  
 
 ---
 
 ## 🗺️ Visualização do Grafo
 
-Abaixo estão algumas visualizações reais do banco no **Neo4j Browser**, demonstrando:
-
-- Organização por gêneros  
-- Relacionamento entre usuários  
-- Interseção de interesses  
-- Estrutura de recomendação  
-
-### 🎥 Filmes e Gêneros
-
-![Grafo - Filmes e Gêneros](imagens/visualisation_1.png)
+### 🎥 Filmes, Séries e Gêneros
+![Filmes e Gêneros](imagens/visualiza%C3%A7%C3%A3o%20(6).png)
 
 ---
 
 ### 👥 Usuários e Conteúdos
-
-![Grafo - Usuários](imagens/visualisation_2.png)
+![Usuários e Conteúdos](imagens/visualiza%C3%A7%C3%A3o%20(5).png)
 
 ---
 
-### 🧠 Conexões e Afinidades
+### 🧠 Afinidade entre Usuários
+![Afinidade](imagens/visualiza%C3%A7%C3%A3o%20(4).png)
 
-![Grafo - Afinidade](imagens/visualisation_3.png)
+---
+
+### 🔎 Estrutura Completa do Grafo
+![Estrutura Completa](imagens/visualiza%C3%A7%C3%A3o%20(3).png)
 
 ---
 
 ## 🧩 Estrutura do Projeto
+
 
